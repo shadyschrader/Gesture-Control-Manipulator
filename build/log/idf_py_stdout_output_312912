@@ -1,0 +1,665 @@
+ vaddr=400d0020 size=20314h (131860) map[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7128
+load:0x40078000,len:15672
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (29) boot: ESP-IDF v5.1.5-572-g8034b50d33 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Feb 21 2025 19:13:04[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (34) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae40h ( 44608) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001ae68 vaddr=3ffb0000 size=02170h (  8560) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001cfe0 vaddr=40080000 size=03038h ( 12344) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=20314h (131860) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=0004033c vaddr=40083038 size=0a0e8h ( 41192) load[0m
+[0;32mI (205) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (205) boot: Disabling RNG early entropy source...[0m
+[0;32mI (217) cpu_start: Multicore app[0m
+[0;32mI (218) cpu_start: Pro cpu up.[0m
+[0;32mI (218) cpu_start: Starting app cpu, entry point is 0x40081210[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (235) cpu_start: Pro cpu start user code[0m
+[0;32mI (235) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (235) cpu_start: Application information:[0m
+[0;32mI (240) cpu_start: Project name:     servo-control[0m
+[0;32mI (245) cpu_start: App version:      1[0m
+[0;32mI (250) cpu_start: Compile time:     Feb 21 2025 19:12:55[0m
+[0;32mI (256) cpu_start: ELF file SHA256:  d2932389795fade5...[0m
+[0;32mI (262) cpu_start: ESP-IDF:          v5.1.5-572-g8034b50d33[0m
+[0;32mI (268) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (273) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (278) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (283) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (290) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (296) heap_init: At 3FFB2A60 len 0002D5A0 (181 KiB): DRAM[0m
+[0;32mI (302) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (308) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (315) heap_init: At 4008D120 len 00012EE0 (75 KiB): IRAM[0m
+[0;32mI (322) spi_flash: detected chip: generic[0m
+[0;32mI (326) spi_flash: flash io: dio[0m
+[0;33mW (330) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (343) app_start: Starting scheduler on CPU0[0m
+[0;32mI (348) app_start: Starting scheduler on CPU1[0[0;32mI (358) main_task: Returned from app_main()[0m
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+Data received: S0:30
+S1:51
+S2:79
+S3:118
+
+Parsed: S0=30
+Parsed: S1=51
+Parsed: S2=79
+Parsed: S3=118
+Data received: S0:28
+S1:50
+S2:77
+S3:115
+
+Parsed: S0=28
+Parsed: S1=50
+Parsed: S2=77
+Parsed: S3=115
+Data received: S0:28
+S1:50
+S2:77
+S3:116
+
+Parsed: S0=28
+Parsed: S1=50
+Parsed: S2=77
+Parsed: S3=116
+Data received: S0:28
+S1:51
+S2:78
+S3:117
+
+Parsed: S0=28
+Parsed: S1=51
+Parsed: S2=78
+Parsed: S3=117
+Data received: S0:28
+S1:51
+S2:78
+S3:117
+
+Parsed: S0=28
+Parsed: S1=51
+Parsed: S2=78
+Parsed: S3=117
+Data received: S0:29
+S1:53
+S2:80
+S3:119
+
+Parsed: S0=29
+Parsed: S1=53
+Parsed: S2=80
+Parsed: S3=119
+Data received: S0:29
+S1:52
+S2:80
+S3:120
+S0:30
+S1:52
+S2:82
+S3:121
+
+Parsed: S0=29
+Parsed: S1=52
+Parsed: S2=80
+Parsed: S3=120
+Parsed: S0=30
+Parsed: S1=52
+Parsed: S2=82
+Parsed: S3=121
+Data received: S0:31
+S1:54
+S2:82
+S3:123
+
+Parsed: S0=31
+Parsed: S1=54
+Parsed: S2=82
+Parsed: S3=123
+Data received: S0:29
+S1:51
+S2:81
+S3:122
+
+Parsed: S0=29
+Parsed: S1=51
+Parsed: S2=81
+Parsed: S3=122
+Data received: S0:10
+S1:34
+S2:61
+S3:105
+
+Parsed: S0=10
+Parsed: S1=34
+Parsed: S2=61
+Parsed: S3=105
+Data received: S0:28
+S1:46
+S2:71
+S3:110
+
+Parsed: S0=28
+Parsed: S1=46
+Parsed: S2=71
+Parsed: S3=110
+Data received: S0:8
+S1:25
+S2:39
+S3:53
+
+Parsed: S0=8
+Parsed: S1=25
+Parsed: S2=39
+Parsed: S3=53
+Data received: S0:9
+S1:24
+S2:38
+S3:51
+
+Parsed: S0=9
+Parsed: S1=24
+Parsed: S2=38
+Parsed: S3=51
+Data received: S0:32
+S1:52
+S2:81
+S3:115
+
+Parsed: S0=32
+Parsed: S1=52
+Parsed: S2=81
+Parsed: S3=115
+Data received: S0:29
+S1:49
+S2:81
+S3:119
+
+Parsed: S0=29
+Parsed: S1=49
+Parsed: S2=81
+Parsed: S3=119
+Data received: S0:29
+S1:51
+S2:80
+S3:120
+
+Parsed: S0=29
+Parsed: S1=51
+Parsed: S2=80
+Parsed: S3=120
+Data received: S0:6
+S1:26
+S2:41
+S3:55
+
+Parsed: S0=6
+Parsed: S1=26
+Parsed: S2=41
+Parsed: S3=55
+Data received: S0:11
+S1:29
+S2:45
+S3:56
+S0:11
+S1:27
+S2:42
+S3:55
+
+Parsed: S0=11
+Parsed: S1=29
+Parsed: S2=45
+Parsed: S3=56
+Parsed: S0=11
+Parsed: S1=27
+Parsed: S2=42
+Parsed: S3=55
+Data received: S0:6
+S1:22
+S2:37
+S3:51
+
+Parsed: S0=6
+Parsed: S1=22
+Parsed: S2=37
+Parsed: S3=51
+Data received: S0:8
+S1:24
+S2:39
+S3:52
+
+Parsed: S0=8
+Parsed: S1=24
+Parsed: S2=39
+Parsed: S3=52
+Data received: S0:7
+S1:23
+S2:38
+S3:51
+
+Parsed: S0=7
+Parsed: S1=23
+Parsed: S2=38
+Parsed: S3=51
+Data received: S0:7
+S1:23
+S2:38
+S3:51
+
+Parsed: S0=7
+Parsed: S1=23
+Parsed: S2=38
+Parsed: S3=51
+Data received: S0:9
+S1:24
+S2:39
+S3:53
+
+Parsed: S0=9
+Parsed: S1=24
+Parsed: S2=39
+Parsed: S3=53
+Data received: S0:8
+S1:24
+S2:39
+S3:53
+
+Parsed: S0=8
+Parsed: S1=24
+Parsed: S2=39
+Parsed: S3=53
+Data received: S0:7
+S1:23
+S2:37
+S3:50
+
+Parsed: S0=7
+Parsed: S1=23
+Parsed: S2=37
+Parsed: S3=50
+Data received: S0:5
+S1:21
+S2:35
+S3:48
+
+Parsed: S0=5
+Parsed: S1=21
+Parsed: S2=35
+Parsed: S3=48
+Data received: S0:2
+S1:18
+S2:32
+S3:46
+
+Parsed: S0=2
+Parsed: S1=18
+Parsed: S2=32
+Parsed: S3=46
+Data received: S0:6
+S1:22
+S2:36
+S3:48
+
+Parsed: S0=6
+Parsed: S1=22
+Parsed: S2=36
+Parsed: S3=48
+Data received: S0:4
+S1:19
+S2:33
+S3:46
+S0:6
+S1:21
+S2:36
+S3:48
+
+Parsed: S0=4
+Parsed: S1=19
+Parsed: S2=33
+Parsed: S3=46
+Parsed: S0=6
+Parsed: S1=21
+Parsed: S2=36
+Parsed: S3=48
+Data received: S0:7
+S1:21
+S2:36
+S3:49
+
+Parsed: S0=7
+Parsed: S1=21
+Parsed: S2=36
+Parsed: S3=49
+Data received: S0:6
+S1:21
+S2:36
+S3:48
+
+Parsed: S0=6
+Parsed: S1=21
+Parsed: S2=36
+Parsed: S3=48
+Data received: S0:7
+S1:22
+S2:36
+S3:49
+
+Parsed: S0=7
+Parsed: S1=22
+Parsed: S2=36
+Parsed: S3=49
+Data received: S0:6
+S1:21
+S2:36
+S3:48
+
+Parsed: S0=6
+Parsed: S1=21
+Parsed: S2=36
+Parsed: S3=48
+Data received: S0:8
+S1:23
+S2:36
+S3:49
+
+Parsed: S0=8
+Parsed: S1=23
+Parsed: S2=36
+Parsed: S3=49
+Data received: S0:43
+S1:73
+S2:97
+S3:126
+
+Parsed: S0=43
+Parsed: S1=73
+Parsed: S2=97
+Parsed: S3=126
+Data received: S0:33
+S1:59
+S2:84
+S3:127
+
+Parsed: S0=33
+Parsed: S1=59
+Parsed: S2=84
+Parsed: S3=127
+Data received: S0:33
+S1:61
+S2:87
+S3:129
+
+Parsed: S0=33
+Parsed: S1=61
+Parsed: S2=87
+Parsed: S3=129
+Data received: S0:49
+S1:73
+S2:103
+S3:141
+
+Parsed: S0=49
+Parsed: S1=73
+Parsed: S2=103
+Parsed: S3=141
+Data received: S0:51
+S1:73
+S2:104
+S3:142
+
+Parsed: S0=51
+Parsed: S1=73
+Parsed: S2=104
+Parsed: S3=142
+Data received: S0:51
+S1:73
+S2:103
+S3:144
+S0:49
+S1:72
+S2:102
+S3:143
+
+Parsed: S0=51
+Parsed: S1=73
+Parsed: S2=103
+Parsed: S3=144
+Parsed: S0=49
+Parsed: S1=72
+Parsed: S2=102
+Parsed: S3=143
+Data received: S0:51
+S1:73
+S2:102
+S3:144
+
+Parsed: S0=51
+Parsed: S1=73
+Parsed: S2=102
+Parsed: S3=144
+Data received: S0:7
+S1:23
+S2:38
+S3:52
+
+Parsed: S0=7
+Parsed: S1=23
+Parsed: S2=38
+Parsed: S3=52
+Data received: S0:12
+S1:28
+S2:42
+S3:54
+
+Parsed: S0=12
+Parsed: S1=28
+Parsed: S2=42
+Parsed: S3=54
+Data received: S0:28
+S1:41
+S2:55
+S3:68
+
+Parsed: S0=28
+Parsed: S1=41
+Parsed: S2=55
+Parsed: S3=68
+Data received: S0:31
+S1:45
+S2:59
+S3:70
+
+Parsed: S0=31
+Parsed: S1=45
+Parsed: S2=59
+Parsed: S3=70
+Data received: S0:54
+S1:69
+S2:82
+S3:94
+
+Parsed: S0=54
+Parsed: S1=69
+Parsed: S2=82
+Parsed: S3=94
+Data received: S0:56
+S1:67
+S2:80
+S3:92
+
+Parsed: S0=56
+Parsed: S1=67
+Parsed: S2=80
+Parsed: S3=92
+Data received: S0:50
+S1:73
+S2:84
+S3:96
+
+Parsed: S0=50
+Parsed: S1=73
+Parsed: S2=84
+Parsed: S3=96
+Data received: S0:44
+S1:57
+S2:80
+S3:95
+
+Parsed: S0=44
+Parsed: S1=57
+Parsed: S2=80
+Parsed: S3=95
+Data received: S0:10
+S1:28
+S2:45
+S3:58
+
+Parsed: S0=10
+Parsed: S1=28
+Parsed: S2=45
+Parsed: S3=58
+Data received: S0:57
+S1:72
+S2:86
+S3:102
+S0:41
+S1:38
+S2:51
+S3:68
+
+Parsed: S0=57
+Parsed: S1=72
+Parsed: S2=86
+Parsed: S3=102
+Parsed: S0=41
+Parsed: S1=38
+Parsed: S2=51
+Parsed: S3=68
+Data received: S0:28
+S1:27
+S2:38
+S3:51
+
+Parsed: S0=28
+Parsed: S1=27
+Parsed: S2=38
+Parsed: S3=51
+Data received: S0:25
+S1:43
+S2:66
+S3:82
+
+Parsed: S0=25
+Parsed: S1=43
+Parsed: S2=66
+Parsed: S3=82
+Data received: S0:31
+S1:36
+S2:58
+S3:75
+
+Parsed: S0=31
+Parsed: S1=36
+Parsed: S2=58
+Parsed: S3=75
+Data received: S0:10
+S1:52
+S2:70
+S3:89
+
+Parsed: S0=10
+Parsed: S1=52
+Parsed: S2=70
+Parsed: S3=89
+Data received: S0:0
+S1:46
+S2:64
+S3:82
+
+Parsed: S0=0
+Parsed: S1=46
+Parsed: S2=64
+Parsed: S3=82
+Data received: S0:0
+S1:41
+S2:61
+S3:80
+
+Parsed: S0=0
+Parsed: S1=41
+Parsed: S2=61
+Parsed: S3=80
+Data received: S0:0
+S1:54
+S2:64
+S3:80
+
+Parsed: S0=0
+Parsed: S1=54
+Parsed: S2=64
+Parsed: S3=80
+Data received: S0:28
+S1:57
+S2:79
+S3:94
+
+Parsed: S0=28
+Parsed: S1=57
+Parsed: S2=79
+Parsed: S3=94
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
