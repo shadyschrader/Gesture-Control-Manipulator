@@ -1,0 +1,162 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7128
+load:0x40078000,len:15672
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (29) boot: ESP-IDF v5.1.5-572-g8034b50d33 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar  9 2025 18:38:02[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (34) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae40h ( 44608) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0001ae68 vaddr=3ffb0000 size=02170h (  8560) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001cfe0 vaddr=40080000 size=03038h ( 12344) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=20314h (131860) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=0004033c vaddr=40083038 size=0a0e8h ( 41192) load[0m
+[0;32mI (205) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (205) boot: Disabling RNG early entropy source...[0m
+[0;32mI (217) cpu_start: Multicore app[0m
+[0;32mI (218) cpu_start: Pro cpu up.[0m
+[0;32mI (218) cpu_start: Starting app cpu, entry point is 0x40081210[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (235) cpu_start: Pro cpu start user code[0m
+[0;32mI (235) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (235) cpu_start: Application information:[0m
+[0;32mI (240) cpu_start: Project name:     servo-control[0m
+[0;32mI (245) cpu_start: App version:      9b28581-dirty[0m
+[0;32mI (251) cpu_start: Compile time:     Mar  9 2025 18:37:57[0m
+[0;32mI (257) cpu_start: ELF file SHA256:  1815f0fb94dcde4f...[0m
+[0;32mI (263) cpu_start: ESP-IDF:          v5.1.5-572-g8034b50d33[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB2A60 len 0002D5A0 (181 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (309) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008D120 len 00012EE0 (75 KiB): IRAM[0m
+[0;32mI (323) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (330) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0[0;32mI (359) main_task: Returned from app_main()[0m
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
+Data received: S0:21
+S1:54
+S2:84
+S3:120
+
+Parsed: S0=21
+Parsed: S1=54
+Parsed: S2=84
+Parsed: S3=120
+Data received: S0:20
+S1:41
+S2:70
+S3:114
+
+Parsed: S0=20
+Parsed: S1=41
+Parsed: S2=70
+Parsed: S3=114
+Data received: S0:21
+S1:42
+S2:73
+S3:118
+
+Parsed: S0=21
+Parsed: S1=42
+Parsed: S2=73
+Parsed: S3=118
+Data received: S0:27
+S1:48
+S2:77
+S3:123
+
+Parsed: S0=27
+Parsed: S1=48
+Parsed: S2=77
+Parsed: S3=123
+Data received: S0:31
+S1:52
+S2:79
+S3:123
+
+Parsed: S0=31
+Parsed: S1=52
+Parsed: S2=79
+Parsed: S3=123
+Data received: S0:31
+S1:51
+S2:79
+S3:120
+
+Parsed: S0=31
+Parsed: S1=51
+Parsed: S2=79
+Parsed: S3=120
+Data received: S0:0
+S1:38
+S2:65
+S3:108
+
+Parsed: S0=0
+Parsed: S1=38
+Parsed: S2=65
+Parsed: S3=108
+Data received: S0:4
+S1:43
+S2:69
+S3:113
+
+Parsed: S0=4
+Parsed: S1=43
+Parsed: S2=69
+Parsed: S3=113
+Data received: S0:0
+S1:5
+S2:10
+S3:5
+S0:34
+S1:48
+S2:66
+S3:85
+
+Parsed: S0=0
+Parsed: S1=5
+Parsed: S2=10
+Parsed: S3=5
+Parsed: S0=34
+Parsed: S1=48
+Parsed: S2=66
+Parsed: S3=85
+no data received 
+no data received 
+no data received 
+no data received 
+no data received 
