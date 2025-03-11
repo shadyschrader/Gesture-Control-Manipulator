@@ -41,29 +41,31 @@ def detect_gesture(landmarks):
     return "UNKNOWN"
 
 
-# Capture Video
+last_gesture = None  # Store the last gesture
+
 cap = cv2.VideoCapture(0)
 while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
         break
 
-    # Convert to RGB for MediaPipe
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     result = hands.process(frame_rgb)
 
     if result.multi_hand_landmarks:
         for hand_landmarks in result.multi_hand_landmarks:
             mp_draw.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
-
-            # Convert landmarks to a list
+            
+            # Detect gesture (same as before)
             landmarks = hand_landmarks.landmark
-            gesture = detect_gesture(landmarks)
+            gesture = detect_gesture(landmarks)  # Your function to recognize gestures
             cv2.putText(frame, gesture, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            
+            # Send gesture ONLY if it has changed
+            if gesture != last_gesture: #and gesture != "UNKNOWN":
+                ser.write((gesture + "\n").encode())  # Send new gesture to ESP32
+                last_gesture = gesture  # Update last_gesture
 
-            # Send detected gesture to ESP32
-            if gesture != "UNKNOWN":
-                ser.write((gesture + "\n").encode())
 
     cv2.imshow("Gesture Detection", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):

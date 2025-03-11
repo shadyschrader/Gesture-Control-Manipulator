@@ -1,0 +1,183 @@
+ddr=40080000 size=04078h ( 16504) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 �ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7128
+load:0x40078000,len:15672
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (29) boot: ESP-IDF v5.1.5-572-g8034b50d33 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar  9 2025 18:38:02[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09e58h ( 40536) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019e80 vaddr=3ffb0000 size=02118h (  8472) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001bfa0 vaddr=40080000 size=04078h ( 16504) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=15694h ( 87700) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=000356bc vaddr=40084078 size=08e54h ( 36436) load[0m
+[0;32mI (186) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (186) boot: Disabling RNG early entropy source...[0m
+[0;32mI (197) cpu_start: Multicore app[0m
+[0;32mI (198) cpu_start: Pro cpu up.[0m
+[0;32mI (199) cpu_start: Starting app cpu, entry point is 0x40081200[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) cpu_start: Application information:[0m
+[0;32mI (221) cpu_start: Project name:     servo-control[0m
+[0;32mI (226) cpu_start: App version:      afc0413-dirty[0m
+[0;32mI (232) cpu_start: Compile time:     Mar 10 2025 21:20:18[0m
+[0;32mI (238) cpu_start: ELF file SHA256:  60d53d554fab8171...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.1.5-572-g8034b50d33[0m
+[0;32mI (250) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (255) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (264) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (277) heap_init: At 3FFB29B0 len 0002D650 (181 KiB): DRAM[0m
+[0;32mI (284) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (290) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (296) heap_init: At 4008CECC len 00013134 (76 KiB): IRAM[0m
+[0;32mI (304) spi_flash: detected chip: generic[0m
+[0;32mI (307) spi_flash: flash io: dio[0m
+[0;33mW (311) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (325) app_start: Starting scheduler on CPU0[0m
+[0;32mI (329) app_start: Starting scheduler on CPU1[0Received: RELEASE
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: UNKNOWN
+Received: GRAB
+Received: UNKNOWN
+Received: UNKNOWN
+Received: PINCH
+Received: c
+Received: lear
+Received: 
